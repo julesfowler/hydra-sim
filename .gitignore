@@ -1,3 +1,6 @@
+modes/
+heads/
+plots/
 *.png
 *.jpeg
 
