@@ -29,7 +29,7 @@ modes_out = f'{name}_modes.fits'
 make_modes(image_infile, 2500, modes_out)
 print(f'Modes written to {modes_out}')
     
-# Test it
+# Test it!
 turbulence = 'one_scene_turbulence_144x.fits'
 approx, difference_image, percent_difference = test_basis(turbulence, modes_out)
 print(f'The {name} hydra modal basis has a {percent_difference} from the original turbulence image.')
